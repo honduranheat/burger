@@ -1,12 +1,24 @@
-
 .jumbotron {
-    background-color: cyan;
+    background: #1b222a url(../images/hamburgerbacking2.jpg) top center;
     color: white;
-    height: 500px;
+    height: 200px;
     overflow: hidden;
-};
+}
 
-.showcase-image {
-    height: 500px;
-    width: 500px;
+.titleText {
+    font-family: 'Permanent Marker', cursive;
+    color: black !important;
+    text-align: center;
+    font-size: 85px;
+    text-decoration-line: overline underline;
+    text-decoration-style: wavy;
+}
+
+.columnText {
+    font-family: 'Permanent Marker', cursive;
+    color: black !important;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-style: wavy;
 }

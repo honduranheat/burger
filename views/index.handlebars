@@ -1,6 +1,6 @@
 <div class="row" id="burgers" class="col-3 col-md-3 col-sm-12">
   <div class="col-3 col-md-3 col-sm-12" id="addburger">
-    <h2>Add A Burger</h2>
+    <h2 class="columnText">Order Up!</h2>
     <br>
     <form action="/burgers" method="POST">
       <input type="text" id="name" name="burger_name" placeholder="Burger">
@@ -8,7 +8,7 @@
     </form>
   </div>
   <div id="burgernoteaten" class="col-4 col-md-4  col-sm-6">
-    <h2>Burgers Not Eaten</h2>
+    <h2 class="columnText">Time To Eat!</h2>
     <div class="col-12 col-md-12 col-sm-6">
       <ul class="noteaten">
         {{#each burgers}} {{#unless this.devoured}}
@@ -22,7 +22,7 @@
     </div>
   </div>`
   <div id="burgereaten" class="col-4 col-md-4  col-sm-6">
-    <h2>Burgers Eaten</h2>
+    <h2 class="columnText">R.I.P.</h2>
     <div class="col-12 col-md-12 col-sm-6">
       <ul class="eaten">
         {{#each burgers}} {{#if this.devoured}}
